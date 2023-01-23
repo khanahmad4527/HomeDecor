@@ -46,12 +46,16 @@ Homedecor is an online platform that allows users to browse and purchase home de
 ```bash
 git clone https://github.com/khanahmad4527/HomeDecor.git
 ```
-2. Install The json-server
+2. Install dependencies
 
 ```bash
 npm install
 ```
+3. Start the project
 
+```bash
+npm start
+```
 
 ## Usage
 
