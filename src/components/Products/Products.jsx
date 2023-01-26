@@ -487,7 +487,7 @@ const Products = () => {
           <div className={Styles.grid1Showing}>
             Showing{" "}
             {`${1 + (currentPage * 15 - 15)}-${
-              currentPage * 15
+               totalCount
             } of ${totalCount}`}
           </div>
         </div>
