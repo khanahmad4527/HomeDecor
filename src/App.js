@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import AllRoutes from "./components/AllRoutes";
 import { Navbar1 } from "./components/Navbar/Navbar";
 import { Login } from "./redux/auth/auth.actions";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   const dispatch = useDispatch();
@@ -18,6 +19,17 @@ function App() {
     <div>
       <Navbar1 />
       <AllRoutes />
+      <ScrollToTop
+        smooth
+        color="#902735"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          position: "fixed",
+          bottom: "80px",
+        }}
+      />
     </div>
   );
 }
